@@ -65,7 +65,7 @@ HOST_EXE_EXT =
 EXE_EXT = 
 LIB_EXT = .a
 OBJ_EXT = .o
-PATH_SEP = :
+PATH_SEP = 
 
 # Macros to invoke a copy of miniperl during the build.  Targets which
 # are built using these macros should depend on $(MINIPERL_EXE)

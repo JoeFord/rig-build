@@ -1,0 +1,47 @@
+Finding dependencies for universal.o.
+Finding dependencies for pad.o.
+Finding dependencies for globals.o.
+Finding dependencies for keywords.o.
+Finding dependencies for perlio.o.
+Finding dependencies for perlapi.o.
+Finding dependencies for numeric.o.
+Finding dependencies for mathoms.o.
+Finding dependencies for locale.o.
+Finding dependencies for pp_pack.o.
+Finding dependencies for pp_sort.o.
+Finding dependencies for miniperlmain.o.
+Finding dependencies for opmini.o.
+Finding dependencies for perlmini.o.
+make[1]: Entering directory `/rig-build/build'
+echo Makefile.SH cflags.SH config_h.SH makedepend.SH myconfig.SH pod/Makefile.SH | tr ' ' '\n' >.shlist
+make[1]: Leaving directory `/rig-build/build'
+Updating makefile...
+cd x2p; make depend
+make[1]: Entering directory `/rig-build/build/x2p'
+sh ../makedepend MAKE=make
+make[2]: Entering directory `/rig-build/build/x2p'
+echo hash.c  str.c util.c walk.c | tr ' ' '\n' >.clist
+make[2]: Leaving directory `/rig-build/build/x2p'
+Finding dependencies for hash.o.
+Finding dependencies for str.o.
+Finding dependencies for util.o.
+Finding dependencies for walk.o.
+make[2]: Entering directory `/rig-build/build/x2p'
+echo Makefile.SH cflags.SH | tr ' ' '\n' >.shlist
+make[2]: Leaving directory `/rig-build/build/x2p'
+Updating makefile...
+make[1]: Leaving directory `/rig-build/build/x2p'
+Now you must run 'make'.
+
+If you compile perl5 on a different machine or from a different object
+directory, copy the Policy.sh file from this object directory to the
+new one before you run Configure -- this will help you with most of
+the policy defaults.
+
+mo@sciencemachine:/rig-build/build$ **
+Gtk:ERROR:/build/buildd/gtk+2.0-2.24.6/gtk/gtkfilesystemmodel.c:746:gtk_file_system_model_sort: assertion failed: (r == n_visible_rows)
+
+mo@sciencemachine:/rig-build/build$ ^C
+[3]+  Aborted                 geany  (wd: /rig)
+(wd now: /rig-build/build)
+mo@sciencemachine:/rig-build/build$
